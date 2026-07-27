@@ -1,0 +1,28 @@
+:root {
+  --color-bg-start: #4f7cff;
+  --color-bg-end: #2f4bbd;
+  --color-surface: #ffffff;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-error: #dc2626;
+  --color-error-bg: #fef2f2;
+  --radius: 16px;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(160deg, var(--color-bg-start), var(--color-bg-end));
+  color: var(--color-text);
+  min-height: 100vh;
+}
